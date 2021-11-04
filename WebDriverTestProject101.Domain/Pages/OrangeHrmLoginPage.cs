@@ -1,11 +1,17 @@
-﻿using DesignPatternLearn101.Core.Page;
+﻿using WebDriverTestProject101.Core.Page;
 
 namespace WebDriverTestProject101.Domain.Pages
 {
-    public class OrangeHrmLoginPage : BasePage<OrangeHrmLoginPageMap>
+    public class OrangeHrmLoginPage :
+        BasePageSingletonDerived<
+            OrangeHrmLoginPage,
+            OrangeHrmLoginPageMap>
     {
-        public OrangeHrmLoginPage() : base(@"")
+        public OrangeHrmLoginPage() { }
+
+        public override void Navigate(string url)
         {
+            base.Navigate(url);
         }
 
         public void Login(string username, string password)

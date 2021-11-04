@@ -4,6 +4,7 @@ namespace DesignPatternLearn101.Core.Page
 {
     public class BasePage<T> where T : BasePageElementMap, new()
     {
+        private static BasePage<T> instance;
         protected readonly string url;
 
         public BasePage(string url)
@@ -13,7 +14,19 @@ namespace DesignPatternLearn101.Core.Page
 
         public BasePage()
         {
-            this.url = string.Empty;
+            this.url = null;
+        }
+
+        public static BasePage<T> Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new BasePage<T>();
+                }
+                return instance;
+            }
         }
 
         protected T Map => new();

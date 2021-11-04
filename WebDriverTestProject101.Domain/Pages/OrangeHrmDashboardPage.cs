@@ -1,12 +1,14 @@
-﻿using DesignPatternLearn101.Core.Page;
+﻿using WebDriverTestProject101.Core.Page;
 
 namespace WebDriverTestProject101.Domain.Pages
 {
-    public class OrangeHrmDashboardPage : BasePage<OrangeHrmDashboardPageMap>
+    public class OrangeHrmDashboardPage :
+        BasePageSingletonDerived<
+            OrangeHrmDashboardPage,
+            OrangeHrmDashboardPageMap>
     {
-        public OrangeHrmDashboardPage() : base(@"/index.php/dashboard")
-        {
-        }
+        public OrangeHrmDashboardPage() { }
+
 
         public void Logout()
         {
