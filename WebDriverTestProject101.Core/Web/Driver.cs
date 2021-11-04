@@ -6,7 +6,7 @@ using System;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 
-namespace DesignPatternLearn101.Core.Web
+namespace WebDriverTestProject101.Core.Web
 {
     public static class Driver
     {

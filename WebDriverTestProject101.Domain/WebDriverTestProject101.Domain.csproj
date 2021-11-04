@@ -6,10 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.13.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\WebDriverTestProject101.Core\WebDriverTestProject101.Core.csproj" />
+    <PackageReference Include="WebDriverTestProject101.Core" Version="1.0.1" />
   </ItemGroup>
 
 </Project>

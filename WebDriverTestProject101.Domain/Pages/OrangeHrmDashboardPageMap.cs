@@ -1,6 +1,6 @@
-﻿using DesignPatternLearn101.Core.Page;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using SeleniumExtras.WaitHelpers;
+using WebDriverTestProject101.Core.Page;
 
 namespace WebDriverTestProject101.Domain.Pages
 {

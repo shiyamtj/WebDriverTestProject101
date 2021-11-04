@@ -1,5 +1,4 @@
-﻿using DesignPatternLearn101.Core.Page;
-using DesignPatternLearn101.Core.Web;
+﻿using WebDriverTestProject101.Core.Web;
 
 namespace WebDriverTestProject101.Core.Page
 {

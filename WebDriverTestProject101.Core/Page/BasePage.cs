@@ -1,6 +1,6 @@
-﻿using DesignPatternLearn101.Core.Web;
+﻿using WebDriverTestProject101.Core.Web;
 
-namespace DesignPatternLearn101.Core.Page
+namespace WebDriverTestProject101.Core.Page
 {
     public class BasePage<T> where T : BasePageElementMap, new()
     {
@@ -14,7 +14,7 @@ namespace DesignPatternLearn101.Core.Page
 
         public BasePage()
         {
-            this.url = null;
+            url = null;
         }
 
         public static BasePage<T> Instance

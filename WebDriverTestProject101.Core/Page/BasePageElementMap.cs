@@ -1,8 +1,8 @@
-﻿using DesignPatternLearn101.Core.Web;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using WebDriverTestProject101.Core.Web;
 
-namespace DesignPatternLearn101.Core.Page
+namespace WebDriverTestProject101.Core.Page
 {
     public class BasePageElementMap
     {

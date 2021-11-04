@@ -1,4 +1,4 @@
-﻿namespace DesignPatternLearn101.Core.Web
+﻿namespace WebDriverTestProject101.Core.Web
 {
     public enum BrowserTypes
     {

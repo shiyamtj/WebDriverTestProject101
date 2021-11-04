@@ -1,7 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>WebDriverTestProject101.Core</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>shiyamtj</Authors>
+    <Company>shiyamtj</Company>
+    <PackageDescription>WebDriverTestProject101.Core</PackageDescription>
+    <RepositoryUrl>https://github.com/shiyamtj/WebDriverTestProject101</RepositoryUrl>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>

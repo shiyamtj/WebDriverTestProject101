@@ -1,5 +1,5 @@
-﻿using DesignPatternLearn101.Core.Page;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using WebDriverTestProject101.Core.Page;
 
 namespace WebDriverTestProject101.Domain.Pages
 {
