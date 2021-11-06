@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using WebDriverTestProject101.Core.Utilities;
 using WebDriverTestProject101.Core.Web;
 using WebDriverTestProject101.Domain.Contexts;
 using WebDriverTestProject101.Domain.Pages;

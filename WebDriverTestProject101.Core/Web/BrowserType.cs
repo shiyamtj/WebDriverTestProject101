@@ -1,6 +1,6 @@
 ﻿namespace WebDriverTestProject101.Core.Web
 {
-    public enum BrowserTypes
+    public enum BrowserType
     {
         Firefox,
         Chrome,

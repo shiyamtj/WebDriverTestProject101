@@ -48,20 +48,20 @@ namespace WebDriverTestProject101.Core.Web
             }
         }
 
-        public static void StartBrowser(BrowserTypes browserType = BrowserTypes.Chrome, int defaultTimeOut = 30)
+        public static void StartBrowser(BrowserType browserType = BrowserType.Chrome, int defaultTimeOut = 30)
         {
             switch (browserType)
             {
-                case BrowserTypes.Firefox:
+                case BrowserType.Firefox:
                     {
                         new DriverManager().SetUpDriver(new FirefoxConfig(), "Latest");
                         Browser = new FirefoxDriver();
                     }
                     Browser = new FirefoxDriver();
                     break;
-                case BrowserTypes.IE:
+                case BrowserType.IE:
                     break;
-                case BrowserTypes.Chrome:
+                case BrowserType.Chrome:
                     {
                         new DriverManager().SetUpDriver(new ChromeConfig(), "Latest");
                         Browser = new ChromeDriver();

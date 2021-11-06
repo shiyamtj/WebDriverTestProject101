@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDriverTestProject101", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDriverTestProject101.Core", "WebDriverTestProject101.Core\WebDriverTestProject101.Core.csproj", "{90367AE9-E37C-433C-B127-8B8E4DA8BE60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverTestProject101.Domain", "WebDriverTestProject101.Domain\WebDriverTestProject101.Domain.csproj", "{BB3560BB-5756-4111-BFB3-11026ADDD02D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDriverTestProject101.Domain", "WebDriverTestProject101.Domain\WebDriverTestProject101.Domain.csproj", "{BB3560BB-5756-4111-BFB3-11026ADDD02D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
